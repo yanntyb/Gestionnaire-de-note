@@ -1,0 +1,28 @@
+{
+    "name": "yanntyb/projet",
+    "autoload": {
+        "psr-4": {
+            "Yanntyb\\Projet\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "yanntyb",
+            "email": "yanntyb.lbc@gmail.com"
+        }
+    ],
+    "require": {
+        "yanntyb/router": "dev-main",
+        "yanntyb/controller": "dev-main"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:yanntyb-lib/router.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:yanntyb-lib/controller.git"
+        }
+    ]
+}
