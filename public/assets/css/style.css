@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://notes.io/theme/images/background.jpg");
+    padding: 2%;
+}
+
+#noteArea{
+    width: 100%;
+    height: 100%;
+    background-image: url("https://notes.io/theme/images/notespageback.png");
+    border: none;
+    border-radius: 1%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#title{
+    width: 100%;
+    background-color: darkgrey;
+    height: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+textarea{
+    border: none;
+    resize: none;
+    outline: none;
+    width: 100%;
+    height: 100%;
+    margin-left: 2%;
+    padding: 1%;
+    background: transparent;
+    background-image: url("https://notes.io/theme/images/notesline.png");
+    background-repeat: repeat-y;
+}
